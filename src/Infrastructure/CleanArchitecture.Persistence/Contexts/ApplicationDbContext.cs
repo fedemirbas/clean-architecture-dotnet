@@ -9,6 +9,7 @@ namespace CleanArchitecture.Persistence.Contexts
     {
         public DbSet<Domain.Entities.Customer> Customers { get; set; }
         public DbSet<Domain.Entities.Account> Accounts { get; set; }
+        public DbSet<Domain.Entities.Transaction> Transactions { get; set; }
 
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {

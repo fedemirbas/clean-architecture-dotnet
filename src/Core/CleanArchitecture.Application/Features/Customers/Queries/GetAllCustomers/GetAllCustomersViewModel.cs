@@ -1,13 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Reflection;
 using System.Text;
-using CleanArchitecture.Domain.Common;
 
-namespace CleanArchitecture.Domain.Entities
+namespace CleanArchitecture.Application.Features.Customers.Queries.GetAllCustomers
 {
-    public class Customer : AuditableBaseEntity
+    public class GetAllCustomersViewModel
     {
+        public Guid Id { get; set; }
         public string CustomerFullName { get; set; }
         public string CustomerEmail { get; set; }
         public string CustomerPhoneNumber { get; set; }
