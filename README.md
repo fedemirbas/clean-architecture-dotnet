@@ -19,6 +19,7 @@ Phase 1
 
 Phase 2
 - [ ] added Postgre database and migration process.
+- [ ] implemented deployment process
 
 Phase 3
 - [ ] New repo as microservices
