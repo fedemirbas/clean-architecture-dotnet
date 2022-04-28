@@ -15,7 +15,7 @@ namespace CleanArchitecture.WebApi.Controllers
         {
             _userService = accountService;
         }
-        [HttpPost("authenticate")]
+        [HttpPost("auth")]
         public async Task<IActionResult> AuthenticateAsync(AuthenticationRequest request)
         {
             return Ok(await _userService.AuthenticateAsync(request));
